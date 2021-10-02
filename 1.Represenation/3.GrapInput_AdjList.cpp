@@ -8,6 +8,8 @@ int main() {
 	
 	// declare the adjacent matrix 
 	vector<int> adj[n+1]; 
+	        OR
+	vector<vector<int>>G(n);
 	
 	// take edges as input 
 	for(int i = 0;i<m;i++) {
